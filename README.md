@@ -1,6 +1,6 @@
 # llama.cpp Windows Orchestrator
 
-Important note! This was vibe coded, feel free to contribute and make it better.
+Important note! Feel free to contribute and make it better.
 
 A lightweight web dashboard for configuring, saving, launching, stopping, and monitoring multiple `llama-server` instances on a Windows machine.
 

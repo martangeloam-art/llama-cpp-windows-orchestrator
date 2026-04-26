@@ -39,7 +39,7 @@ llama-cpp-windows-orchestrator/
 
 This keeps the FastAPI entrypoint separate from UI generation, persistence helpers, and runtime process management, which makes future changes much easier. 
 
-## Suggested file split
+## File split rationale
 
 ### `app/main.py`
 FastAPI app setup, routes, and `uvicorn` startup entrypoint.

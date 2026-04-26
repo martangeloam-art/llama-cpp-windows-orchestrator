@@ -76,7 +76,7 @@ This split preserves the same functionality while making the codebase more manag
 ### Example setup
 
 ```powershell
-git clone https://github.com/yourname/llama-cpp-windows-orchestrator.git
+git clone https://github.com/martangeloam-art/llama-cpp-windows-orchestrator.git
 cd llama-cpp-windows-orchestrator
 python -m venv .venv
 .\.venv\Scriptsctivate

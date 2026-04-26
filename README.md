@@ -1,5 +1,7 @@
 # llama.cpp Windows Orchestrator
 
+Important note! This was vibe coded, feel free to contribute and make it better.
+
 A lightweight web dashboard for configuring, saving, launching, stopping, and monitoring multiple `llama-server` instances on a Windows machine.
 
 It is designed for local or remote management of `llama.cpp` model servers with a simple UI: save model configurations, reuse them later, start or stop models on specific ports, view whether a model is idle or processing, and inspect live logs from the browser. The project was built around a Windows-based local LLM workflow and works well with remote access over LAN or Tailscale when the dashboard is exposed correctly. 

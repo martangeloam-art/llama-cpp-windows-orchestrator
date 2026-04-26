@@ -98,16 +98,6 @@ If you later add GGUF metadata inspection again, you can also add `gguf`.
 
 ## Running the app
 
-You can run the dashboard in either of these ways.
-
-### Option 1: run the script directly
-
-```powershell
-python orchestrator.py
-```
-
-### Option 2: run with Uvicorn explicitly
-
 ```powershell
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```

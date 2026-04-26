@@ -79,7 +79,7 @@ This split preserves the same functionality while making the codebase more manag
 git clone https://github.com/martangeloam-art/llama-cpp-windows-orchestrator.git
 cd llama-cpp-windows-orchestrator
 python -m venv .venv
-.\.venv\Scriptsctivate
+.\.venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -98,7 +98,7 @@ If you later add GGUF metadata inspection again, you can also add `gguf`.
 
 ## Running the app
 
-```powershell
+```powershell/terminal
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 

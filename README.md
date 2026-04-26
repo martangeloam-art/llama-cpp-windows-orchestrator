@@ -19,7 +19,7 @@ It is designed for local or remote management of `llama.cpp` model servers with 
 
 ## Project structure
 
-A cleaner GitHub layout is easier to maintain than a single large file. A practical structure is:
+Base structure:
 
 ```text
 llama-cpp-windows-orchestrator/
